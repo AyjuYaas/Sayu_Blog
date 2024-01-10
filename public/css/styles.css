@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+}
+
+.card-text {
+  display: inline;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+<div class="card border-0" style="width: 100%">
+  <div class="card-body">
+    <h1 class="card-title">Compose</h1>
+    <form class="card-text" action="/compose" method="post">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" name="postTitle" id="title" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+        <textarea class="form-control" name="postBody" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark" name="postPublish">Publish</button>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
