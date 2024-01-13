@@ -5,11 +5,11 @@
     <form class="card-text" action="/compose" method="post">
       <div class="mb-3">
         <label for="title" class="form-label">Title</label>
-        <input type="text" class="form-control" name="postTitle" id="title" />
+        <input type="text" class="form-control" name="postTitle" id="title" required />
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Post</label>
-        <textarea class="form-control" name="postBody" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" name="postBody" id="exampleFormControlTextarea1" rows="5" required></textarea>
       </div>
       <button type="submit" class="btn btn-dark" name="postPublish">Publish</button>
     </form>
