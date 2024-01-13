@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const homeStartingContext =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas eveniet dicta est ullam sequi cupiditate atque, ab maiores nulla, praesentium perspiciatis, nobis mollitia libero ipsum totam earum expedita sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid libero expedita aut consequatur, quas fugit porro pariatur temporibus nostrum nobis laudantium. Debitis magni aperiam impedit laudantium amet, dolorum est.";
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas eveniet dicta est ullam sequi cupiditate atque, ab maiores nulla, praesentium perspiciatis, nobis mollitia libero ipsum totam earum expedita sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid libero expedita aut consequatur, quas fugit porro pariatur temporibus nostrum nobis laudantium. Debitis magni aperiam impedit laudantium amet, dolo est.";
 
 main().catch((err) => console.log(err));
 
