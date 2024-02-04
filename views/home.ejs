@@ -2,8 +2,8 @@
 <div class="card border-0" style="width: 100%">
   <div class="card-body">
     <h1 class="card-title"><%= post.title %></h1>
-    <p class="card-text">
-      <% if ( post.title === "Home" ) { %> <%= post.content %> <% }else { %> <%= post.content.substring(0, 100) + "... "
+    <p class="card-text main-content">
+      <% if ( post.title === "Home") { %> <%= post.content %> <% }else { %> <%= post.content.substring(0, 100) + "... "
       %>
       <a href="/posts/<%= post._id %>">Read More</a>
       <% } %>

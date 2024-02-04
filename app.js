@@ -72,16 +72,19 @@ app.post("/compose", async (req, res) => {
 
 app.get("/posts/:title", async (req, res) => {
   const foundBlog = await Blog.findById(req.params.title);
-
-  res.render("post", { title: foundBlog.title, content: foundBlog.content, time: foundBlog.time });
+  res.render("post", {
+    title: foundBlog.title,
+    content: foundBlog.content,
+    time: foundBlog.time,
+  });
 });
 
 app.get("/error", (req, res) => {
   res.render("error");
 });
 
-app.listen(3000, () => {
-  console.log("Server Running on port 3000");
+app.listen(4000, () => {
+  console.log("Server Running on port 4000");
 });
 
 function dateToday() {

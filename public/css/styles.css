@@ -6,6 +6,10 @@ body {
   display: inline;
 }
 
+.main-content {
+  white-space: pre-line !important;
+}
+
 .blogs {
   display: flex;
   flex-direction: column;
